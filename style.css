@@ -1,0 +1,35 @@
+.container {
+	max-width: 600px;
+	margin: auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+textarea {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+button {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#resultado {
+	margin-top: 20px;
+}
+
+#resultado p:first-child {
+	font-weight: bold;
+}
